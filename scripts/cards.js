@@ -4,6 +4,7 @@ const cards = document.querySelector(".cards")
 const langBtn = document.querySelectorAll(".lang-btn")
 const popup = document.querySelector(".popup")
 const container = document.querySelector(".container")
+const popupDialog = document.querySelector(".popup-dialog")
 let result
 
 window.addEventListener("load", async () => {
@@ -41,7 +42,7 @@ function generateCardHTML(card) {
 
                 <h2 class="card-name">${card.title}</h2>
 
-                <button onclick="generatePopupHTML(${card.description})" class="details">
+                <button onclick='generatePopupHTML("${card.description}")' class="details">
                     Подробнее
                 </button>
             </figcaption>
@@ -51,8 +52,11 @@ function generateCardHTML(card) {
 
 function generatePopupHTML(description) {
     popup.innerHTML =  `
-        <p>${description}</p>
+        ${description}
+        <button class="popup-close-btn" onclick="window.closeModal.close()">Закрыть</button>
     `
+    popup.style.display = "flex"
+    popup.showModal()
 }
 
 function generateCards() {

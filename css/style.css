@@ -214,12 +214,22 @@ h1 {
 }
 
 .popup {
-    margin: auto;
-    background: white;
-    display: block;
-    border: 1px solid grey;
-    width: 500px;
-    height: 500px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   border: none;
+   border-radius: 10px;
+   max-width: 750px;
+   width: 100%;
+   height: max-content;
+   align-items: flex-start;
+}
+
+.popup-close-btn {
+    padding: 15px 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
