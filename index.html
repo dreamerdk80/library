@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Библиотека</title>
+</head>
+<body>
+    <header>
+        <section class="header-main">
+            <button class="home">
+                <img src="images/icons/Library.svg" alt="">
+                <span>Библиотека</span>
+            </button>
+
+            <button class="burger-menu">
+                <img src="images/icons/Hamburger-Menu.svg" alt="">
+            </button>
+
+            <div class="header-main-menu">
+                <ul>
+                    <button class="lang-btn" id="php">PHP</button>
+                    <button class="lang-btn" id="javascript">JavaScript</button>
+                </ul>
+            </div>
+        </section>
+
+        <section style="top: -3000px;" class="header-burger-menu">
+            <ul class="header-burger-menu-btn">
+                <button class="lang-btn" id="php">PHP</button>
+                <button class="lang-btn" id="javascript">JavaScript</button>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-picture-container">
+                <img class="main-picture" src="images/slider/image-1.jpg" alt="image-1">
+            </div>
+
+            <div class="picture-container">
+                <img class="picture" src="images/slider/image-1.jpg" alt="image-1">
+                <img class="picture" src="images/slider/image-2.jpg" alt="image-2">
+                <img class="picture" src="images/slider/image-3.jpg" alt="image-3">
+                <img class="picture" src="images/slider/image-4.jpg" alt="image-4">
+            </div>
+        </div>
+
+        <!-- <div class="popup"></div> -->
+
+        <section class="lang-description"></section>
+
+        <section class="cards"></section>
+    </main>
+
+    <footer>
+        <section class="footer-main">
+            <button class="home">
+                <img src="images/icons/Library.svg" alt="">
+                <span>Библиотека</span>
+            </button>
+        </section>
+    </footer>
+
+    <script src="scripts/burger-menu.js"></script>
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/slider.js"></script>
+</body>
+</html>
