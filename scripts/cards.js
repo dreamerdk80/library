@@ -60,6 +60,7 @@ function generatePopupHTML(title, author, description) {
     `
     popup.style.display = "flex"
     popup.showModal()
+    popup.scrollTo(0, 0)
 }
 
 function closeModalWindow() {
