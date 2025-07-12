@@ -216,7 +216,8 @@ h1 {
 .popup {
    flex-direction: column;
    gap: 25px;
-   border: none;
+   border: 1px solid gray;
+   box-shadow: 0 0 10px;
    border-radius: 10px;
    max-width: 750px;
    width: 100%;
@@ -224,10 +225,38 @@ h1 {
    padding: 25px;
 }
 
+.popup::backdrop {
+    backdrop-filter: blur(5px);
+}
+
+.popup h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.popup h6 {
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.popup span {
+    width: 90%;
+    height: 3px;
+    background: gray;
+    margin: 0 auto;
+}
+
+.popup p {
+    text-indent: 30px;
+    line-height: 1.35;
+}
+
 .popup-close-btn {
     padding: 15px 25px;
-    background: none;
-    border: none;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -324,6 +353,11 @@ footer {
     .footer-main {
         padding: 26px 30px;
     }
+
+    .popup {
+        max-width: 425px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -332,5 +366,10 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .popup {
+        max-width: 280px;
+        width: 100%;
     }
 }

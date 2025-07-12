@@ -42,7 +42,7 @@ function generateCardHTML(card) {
 
                 <h2 class="card-name">${card.title}</h2>
 
-                <button onclick='generatePopupHTML("${card.description}")' class="details">
+                <button onclick='generatePopupHTML("${card.title}", "${card.author}", "${card.description}")' class="details">
                     Подробнее
                 </button>
             </figcaption>
@@ -50,9 +50,12 @@ function generateCardHTML(card) {
     `
 }
 
-function generatePopupHTML(description) {
+function generatePopupHTML(title, author, description) {
     popup.innerHTML =  `
-        ${description}
+        <h5>${title}</h5>
+        <h6>${author}</h6>
+        <span></span>
+        <p>${description}</p>
         <button class="popup-close-btn" onclick="closeModalWindow()">Закрыть</button>
     `
     popup.style.display = "flex"

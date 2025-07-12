@@ -9,14 +9,15 @@
             "author": "Колесников Д.",
             "title": "Разработка веб-приложений на PHP 8",
             "image": "images/books/php/Kolesnikov_D._-_Razrabotka_veb-prilozhenij_na_PHP_8.png",
-            "description": "Разработка веб-приложений на PHP 8",
+            "description": "На практических примерах описано создание веб-приложений на языке РНР версии 8.х. Даны начала разработки на РНР: установка и настройка Apache 2.4, РНР, MySQL и кросс-платформенной сборки ХАМРР, выбор редактора РНР-кода, синтаксис языка, самые полезные функции и нововведения РНР 8.х. Рассмотрено создание веб-приложений с использованием популярного фреймворка Laravel и шаблонизатора Blade. В качестве хранилища данных использованы два сервера - самая современная версия MySQL и набирающая популярность СУБД MoпgoDB. Раскрыты особенности создания индикатора загрузки файла и разыменовывания массивов, приведены примеры устранения типичных SЕО-ошибок, допускаемых программистами, описана работа с PDO, JSON, МР3, Curl, MoЬileDetec. Особое внимание уделяется безопасности веб-приложений - рассматривается, как уберечь их от основных атак, как установить SSL-сертификат и уберечь сам сервер от неприятностей.",
             "file": "../books/php/Kolesnikov_D._-_Razrabotka_veb-prilozhenij_na_PHP_8.pdf"
         },
         {
             "author": "Котеров Д. В., Симдянов И. В.",
             "title": "PHP 8. Наиболее полное руководство (в подлиннике)",
             "image": "images/books/php/Koterov_D._V._Simdyanov_I._V._-_PHP_8._Naibolee_polnoe_rukovodstvo_(V_podlinnike)_-_2023.png",
-            "description": "PHP 8. Наиболее полное руководство (в подлиннике)"
+            "description": "PHP 8. Наиболее полное руководство (в подлиннике)",
+            "file": ""
         },
         {
             "author": "Эрик А. Манн",
@@ -35,19 +36,19 @@
             "author": "Флэнаган Д.",
             "title": "JavaScript. Полное руководство, 7-е издание - 2021",
             "image": "images/books/javascript/Flanagan_D._-_JavaScript._The_Complete_Guide,_7th_Edition_-_2021.png",
-            "description": "Пример описания книги"
+            "description": "JavaScript. Полное руководство, 7-е издание - 2021"
         },
         {
             "author": "Никольский А. П.",
             "title": "JavaScript на примерах. Практика, практика и только практика",
             "image": "images/books/javascript/JavaScript_na_primerakh_Praktika_praktika_i_tolko_praktika_2018.png",
-            "description": "Пример описания книги"
+            "description": "JavaScript на примерах. Практика, практика и только практика"
         },
         {
             "author": "Васильев А. Н.",
             "title": "Программирование на JavaScript в примерах и задачах",
             "image": "images/books/javascript/Vasil'ev_A._N._-_JavaScript_v_primerah_i_zadachah.png",
-            "description": "Пример описания книги"
+            "description": "Программирование на JavaScript в примерах и задачах"
         }
     ]
 }
