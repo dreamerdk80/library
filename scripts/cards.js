@@ -53,10 +53,15 @@ function generateCardHTML(card) {
 function generatePopupHTML(description) {
     popup.innerHTML =  `
         ${description}
-        <button class="popup-close-btn" onclick="window.closeModal.close()">Закрыть</button>
+        <button class="popup-close-btn" onclick="closeModalWindow()">Закрыть</button>
     `
     popup.style.display = "flex"
     popup.showModal()
+}
+
+function closeModalWindow() {
+    window.closeModal.close()
+    popup.style.display = "none"
 }
 
 function generateCards() {

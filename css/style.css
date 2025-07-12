@@ -214,15 +214,14 @@ h1 {
 }
 
 .popup {
-   display: flex;
    flex-direction: column;
    gap: 25px;
    border: none;
    border-radius: 10px;
    max-width: 750px;
    width: 100%;
-   height: max-content;
    align-items: flex-start;
+   padding: 25px;
 }
 
 .popup-close-btn {
