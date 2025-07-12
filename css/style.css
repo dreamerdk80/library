@@ -308,6 +308,11 @@ footer {
     .footer-main {
         padding: 26px 60px;
     }
+
+    .popup {
+        max-width: 720px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
